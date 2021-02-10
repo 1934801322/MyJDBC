@@ -1,17 +1,11 @@
-public class dao {
+public class Dao {
     private int uid;
     private String uname;
     private int age;
 
-    public dao(int uid, String uname, int age) {
-        this.uid = uid;
-        this.uname = uname;
-        this.age = age;
-    }
-
     @Override
     public String toString() {
-        return "Test{" +
+        return "Dao{" +
                 "uid=" + uid +
                 ", uname='" + uname + '\'' +
                 ", age=" + age +
